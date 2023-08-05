@@ -1,0 +1,442 @@
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,600;0,800;1,700&family=Roboto:ital,wght@0,100;0,400;1,500;1,700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,600;0,800;1,700&family=Roboto:ital,wght@0,100;0,400;0,700;1,500;1,700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,600;0,800;1,700&family=Roboto:ital,wght@0,100;0,700;1,500;1,700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a, ul {
+    text-decoration: none;
+    list-style: none;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 19px;
+}
+
+body {
+    background-color: #f4e4dc;
+}
+.home--navbar {
+    display: flex;
+    height: 70px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f4e4dc;
+}
+.home--navbar .nav--list a {
+    margin: 0px 10px;
+}
+.home--navbar .nav--list {
+    display: flex;
+    align-items: center;
+}
+.nav--title {
+    color: #000;
+    font-size: 20px;
+}
+.main--content {
+    height: 90vh;
+    width: 100%;
+    background: url("../../public/sunset.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main--content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main--content .main--title {
+    font-size: 4rem;
+    color: #fff;
+    margin-bottom: 30px;
+    /* font-family: 'Noto Sans', sans-serif; */
+font-family: 'Roboto', sans-serif;
+}
+.main--content .main--text {
+    font-size: 1.9rem;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    /* font-family: 'Noto Sans', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
+.main--content .main--btn {
+    padding: 10px 300px;
+    cursor: pointer;
+    background-color: #ff8430;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+}
+.footer {
+    width: 100%;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main--image {
+    background: url("../../public/vans.jpg");
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.about--container main .main--text {
+    padding: 20px;
+    text-align: left;
+}
+.about--container main .main--text h1 {
+    font-size: 4rem;
+    padding: 20px;
+font-family: 'Roboto', sans-serif;
+}
+.about--container main .main--text p {
+    font-size: 1.2rem;
+    /* font-family: 'Noto Sans', sans-serif; */
+font-family: 'Roboto', sans-serif;
+
+}
+.main--card {
+    padding: 30px;
+}
+.card--child {
+    padding: 20px;
+    background-color: #ff8430;
+    border-radius: 10px;
+}
+.card--child h1 {
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+}
+.card--btn {
+    padding: 20px 100px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+.vans--container {
+    background-color: #fdf5e9;
+}
+.vans--main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.vans--main .vans--title {
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+}
+.vans--main .vans--links {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.vans--links--btn {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fae0bf;
+    color: #000;
+    cursor: pointer;
+    border: none;
+}
+.vans--links--clear {
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.vans--card {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 300px;
+}
+.vans--card .vans--image {
+    width: 300px;
+    border-radius: 10px;
+}
+.vans--card--child {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 10px;
+}
+.vans--luxury--btn {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    width: 80px;
+    cursor: pointer;
+}
+.vans--simple--btn {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: blueviolet;
+    text-align: center;
+    width: 80px;
+    cursor: pointer;
+}
+.vans--rugged--btn {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    background-color: lightgreen;
+    text-align: center;
+    width: 80px;
+    cursor: pointer;
+}
+.vans--card--price p {
+    color: rgba(0, 0, 0, 0.7);
+}
+.card--list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px 0px;
+}
+.vans--card--title {
+    font-size: 1.2rem;
+    color: #000;
+}
+.vans--card--price {
+    color: #000;
+}
+.vans--description {
+    padding: 5px 10px;
+    font-size: 1rem;
+}
+.host--nav {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+/* .host--nav a {
+    color: #000;
+} */
+.active--links {
+    color: black;
+}
+.vans--host {
+    padding: 20px;
+}
+.vans--host--title {
+    font-size: 4rem;
+}
+.host--vans--mini {
+    display: flex;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.host--vans--mini img {
+    border-radius: 10px;
+    width: 270px;
+    height: 270px;
+}
+.flex--host--vans {
+    padding: 20px;
+}
+.host--vans--mini {
+    margin: 20px 0px;
+    color: #000;
+}
+.flex--host--vans h1 {
+    font-size: 3rem;
+}
+.flex--host--vans p {
+    font-size: 1.7rem;
+}
+.host--vans--list {
+    display: flex;
+    flex-direction: column;
+}
+.shared--host--vans {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.shared--host--one {
+    display: flex;
+    padding: 20px;
+}
+.shared--host--one img {
+    width: 400px;
+    height: 270px;
+    border-radius: 10px;
+}
+.shared--host--one button {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+.host--one--div {
+    padding: 10px;
+}
+.host--one--div h1 {
+    font-size: 4rem;
+    color: #000;
+}
+.host--one--div p {
+    font-size: 2rem;
+    font-weight: 600;
+}
+.host--one--div span {
+    font-size: 1.5rem;
+}
+.shared--host--two {
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+}
+.vans--details {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+.vans--details--h1 {
+    font-size: 17px;
+    margin: 20px 0px;
+}
+.vans--details--span {
+    font-size: 15px;
+    font-weight: 400;
+}
+.vans--details--parent {
+    padding: 20px;
+}
+.back--vans {
+    color: #000;
+}
+.vans--details--parent {
+    padding: 20px;
+}
+.vans--details--parent {
+    padding: 20px;
+}
+.vans--image {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.vans--image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.vans--pricing {
+    padding: 20px;
+}
+.vans--pricing h1 {
+    font-size: 3rem;
+}
+.vans--pricing span {
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.6);
+}
+.selected{
+    background-color: black;
+    color: #fff;
+}
+.error--page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 84.5vh;
+}
+.error--page h1 {
+    font-size: 3rem;
+}
+.error--button {
+    padding: 10px 30px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.error--page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 84.5%;
+    width: 100%;
+    color: red;
+}
+.profile--icon {
+    width: 20px;
+    height: 20px;
+}
+.login--parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 84.5%;
+}
+.login {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.login form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.login form input {
+    padding: 13px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    width: 500px;
+}
+.login form button {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: ff8430;
+    border: none;
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.login--create {
+    text-align: center;
+    margin-top: 20px;
+}
+.login a {
+    color: #ff8430;
+    font-weight: 100;
+}
+.login--error {
+    color: red;
+    text-align: center;
+}
